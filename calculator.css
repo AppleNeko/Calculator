@@ -1,9 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
+body {
+	background-color:#000000
+}
 
 /* Calculator Box */
 .box {
-	background-color:#000000;
+	background-color:#FFFFFF;
 	height: 360px;
 	width: 250px;
 	border-radius: 10px;
