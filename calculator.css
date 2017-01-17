@@ -1,20 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
+body {
+	background-color:#000000
+}
 
 /* Calculator Box */
 .box {
-	background-color: #e5e7ea;
-	height: 300px;
+	background-color:#FFFFFF;
+	height: 360px;
 	width: 250px;
 	border-radius: 10px;
 	position: relative;
 	top: 80px;
 	left: 40%;
 }
-
+ 
 /* Display */
 .display {
-	background-color: #bfc4ce;
+	background-color:#FF0004;
 	width: 220px;
 	position: relative;
 	left: 15px;
@@ -28,7 +31,7 @@
 	height: 30px;
 	width: 210px;
 	color: black;
-	background-color: #bccd95;
+	background-color:#131AD0;
 	font-size: 21px;
 	text-align: right;
 }
@@ -49,18 +52,18 @@
 }
 .button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color:#D69ED8;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.operator {
 	color: white;
-	background-color: #4d5966;
+	background-color: #10D316;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.number {
-	color: white;
+	color:#49C3B6;
 	background-color: #7091ab;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
